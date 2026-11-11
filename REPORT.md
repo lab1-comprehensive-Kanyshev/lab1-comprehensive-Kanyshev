@@ -104,7 +104,7 @@
 
 ### 5.2. План code-review
 * **Подход к ревью:** Формализованная проверка изменений перед слиянием в ветку `develop` по заранее определенным критериям качества, направленная на исключение финансовых ошибок и защиту от злоупотреблений со скидками.
-* **Ссылка на открытый Pull Request с файлом `docs/review-plan.md`:** [Pull Request #3 (https://github.com/lab1-comprehensive-Kanyshev/lab1-comprehensive-Kanyshev/pull/3) (файл [docs/review-plan.md](https://github.com/lab1-comprehensive-Kanyshev/lab1-comprehensive-Kanyshev/blob/feature/review-plan/docs/review-plan.md))].
+* **Ссылка на открытый Pull Request с файлом `docs/review-plan.md`:** Pull Request (https://github.com/lab1-comprehensive-Kanyshev/lab1-comprehensive-Kanyshev/pull/3) (файл [docs/review-plan.md](https://github.com/lab1-comprehensive-Kanyshev/lab1-comprehensive-Kanyshev/blob/feature/review-plan/docs/review-plan.md)).
 * **Ключевые измеримые критерии приемки:**
   * Полное отсутствие магических чисел и строк в коде модуля `src/discount.py`.
   * Обязательная валидация входных параметров (`cart_sum > 0`, корректные типы `promos` и `tier`).
