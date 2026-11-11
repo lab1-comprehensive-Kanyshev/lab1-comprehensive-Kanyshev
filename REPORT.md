@@ -89,9 +89,9 @@
 ### 5.1. Анализ алгоритма
 В ходе обратного проектирования legacy-функции `calculate_cart_total` построена UML-диаграмма деятельности (Activity Diagram), отражающая начальный и конечный узлы, условие базовой скидки (`cart_sum > 15000`), цикл перебора промокодов (`for p in promos`) с вложенными условиями и финальное ограничение максимальной скидки (`price < cart_sum * 0.70`).
 
-![UML Diagram](https://github.com/blob/feature/review-plan/docs/uml_diagram.png?raw=true)
+<img width="916" height="2475" alt="uml_diagram" src="https://github.com/user-attachments/assets/5a15f0be-d639-419e-bbcd-92a876f024a7" />
 
-*(Ссылка на файл в репозитории: [UML Diagram](docs/uml_diagram.png))*
+*(Ссылка на файл в репозитории: [UML Diagram](https://github.com/lab1-comprehensive-Kanyshev/lab1-comprehensive-Kanyshev/tree/feature/review-plan/docs))*
 
 **Список выявленных «запахов кода» (Code Smells) в legacy-фрагменте:**
 1. **Магические числа (Magic Numbers):** В логике расчета напрямую используются неименованные числовые константы (`15000`, `0.85`, `500`, `0.90`, `0.97`, `0.93`, `0.70`), что затрудняет сопровождение и понимание бизнес-правил.
